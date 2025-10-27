@@ -1,0 +1,13 @@
+
+:root {
+  --brand: #0d6efd;
+}
+main .card { border-radius: 1rem; }
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+}
+/* Ensure sufficient contrast for focus indicators and links */
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
